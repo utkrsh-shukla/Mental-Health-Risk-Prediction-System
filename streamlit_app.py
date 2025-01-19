@@ -1,6 +1,6 @@
 import streamlit as st
 # Path to the background image
-image_path = 'Jiraya.png'
+image_path = 'https://github.com/utkrsh-shukla/Mental-Health-Risk-Prediction-System/blob/main/Jiraya.png'
 
 # HTML/CSS for background image
 background_style = f"""
