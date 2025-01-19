@@ -3,23 +3,22 @@ import streamlit as st
 image_path = 'https://github.com/utkrsh-shukla/Mental-Health-Risk-Prediction-System/blob/main/Jiraya.png'
 
 # HTML/CSS for background image
-background_style = f"""
-<style>
-    .stApp {{
-        background-image: url("{image_path}");
-        background-size: cover;
-        background-position: center;
-        height: 100vh;  /* Full screen height */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }}
-</style>
-"""
+
 
 # Apply the background style
-st.markdown(background_style, unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
+    }
+   .sidebar .sidebar-content {
+        background: url("https://images.app.goo.gl/LFCobouKtT7oZ7Qv7")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 st.title("🧠 Mental-Health-Risk-Prediction-System")
