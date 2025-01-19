@@ -2,6 +2,10 @@
 
 This project aims to predict the risk of mental health issues in individuals using machine learning techniques. The solution is built with a **LightGBM** model, achieving a Kaggle competition score of **92.17%**, and incorporates a user-friendly **Streamlit web app** for practical use.
 
+**Web App Link**: [Mental-Health-Risk-Prediction-System](https://shinobi-utkarsh-recommends.streamlit.app/)
+
+**Kaggle Link**: [Kaggle Demonstration of Prediction System](https://www.kaggle.com/code/utkarshshkla/depression-analysis)
+
 ---
 
 ## 📜 Table of Contents
